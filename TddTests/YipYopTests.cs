@@ -54,8 +54,6 @@ namespace TddTests
         {
             Assert.AreEqual("12yop", yipyop.generate(1 ,3), "Ko pour 1-2-yop");//yop == 3
         }
-
-
     }
 
 }

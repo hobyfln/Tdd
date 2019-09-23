@@ -36,5 +36,10 @@ namespace TddTests
             Assert.AreEqual("5", yipyop.generate(5), "ko pour 5");
         }
 
+        [TestMethod()]
+        public void ConfirmGenerateReturn10()
+        {
+            Assert.AreEqual("10", yipyop.generate(10), "ko pour 10");
+        }
     }
 }

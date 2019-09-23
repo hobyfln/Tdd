@@ -10,11 +10,7 @@ namespace Tdd
     {
         static void Main(string[] args)
         {
-            int compteur;
-            for (compteur = 0; compteur < 100; compteur++)
-            {
-            
-            }
+    
         }
     }
 }

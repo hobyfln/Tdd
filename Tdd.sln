@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd", "Tdd\Tdd.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddTests", "TddTests\TddTests.csproj", "{58C6AE81-B5A9-4407-8B63-A986D9DD73DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YipYopTests", "YipYopTests\YipYopTests.csproj", "{E58DCF58-2AA3-42FD-8385-62CD9F862B9D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{58C6AE81-B5A9-4407-8B63-A986D9DD73DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58C6AE81-B5A9-4407-8B63-A986D9DD73DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58C6AE81-B5A9-4407-8B63-A986D9DD73DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E58DCF58-2AA3-42FD-8385-62CD9F862B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E58DCF58-2AA3-42FD-8385-62CD9F862B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E58DCF58-2AA3-42FD-8385-62CD9F862B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E58DCF58-2AA3-42FD-8385-62CD9F862B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,19 +27,19 @@ namespace TddTests
         [TestMethod()]
         public void ConfirmGenerateReturn3()
         {
-            Assert.AreEqual("3", yipyop.generate(3), "ko pour 3");
+            Assert.AreEqual("yop", yipyop.generate(3), "ko pour 3");
         }
 
         [TestMethod()]
         public void ConfirmGenerateReturn5()
         {
-            Assert.AreEqual("5", yipyop.generate(5), "ko pour 5");
+            Assert.AreEqual("yip", yipyop.generate(5), "ko pour 5");
         }
 
         [TestMethod()]
         public void ConfirmGenerateReturn10()
         {
-            Assert.AreEqual("10", yipyop.generate(10), "ko pour 10");
+            Assert.AreEqual("yip", yipyop.generate(10), "ko pour 10");
         }
     }
 }

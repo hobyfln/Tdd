@@ -24,20 +24,26 @@ namespace Tdd
             //       result = "Yop";
             //   }
             if
-                (number % 3 == 0)
+                (number % 15 == 0)
+            {
+                result = "yipyop";
+            }
+
+            if
+               (number % 3 == 0)
+            {
+                result = "yop";
+            }
+            else if (number % 5 == 0)
             {
                 result = "yip";
             }
 
-            else if
-               (number % 5 == 0)
-            {
-                result = "yip";
-            }
             else
-            { 
-                    result = number.ToString();
+            {
+                result = number.ToString();
             }
+
             return result ;
         }
     }

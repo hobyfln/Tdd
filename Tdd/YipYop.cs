@@ -8,7 +8,7 @@ namespace Tdd
 {
     public class YipYop
     {
-        public string generate(int number)
+        public string generate(int NumMin, int NumMax)
         {
             string result = "";
             //if(number == 1)
@@ -24,26 +24,47 @@ namespace Tdd
             //       result = "Yop";
             //   }
             if
-                (number % 15 == 0)
+                (NumMin % 15 == 0)
             {
-                result = "yipyop";
+                result += "yipyop";
             }
 
-            if
-               (number % 3 == 0)
+            else if
+               (NumMin % 3 == 0)
             {
-                result = "yop";
+                result += "yop";
             }
-            else if (number % 5 == 0)
+            else if (NumMin % 5 == 0)
             {
-                result = "yip";
+                result += "yip";
             }
 
             else
             {
-                result = number.ToString();
+                result += NumMin;
             }
 
+            if(NumMin < NumMax)
+                if(NumMax % 15 == 0)
+                {
+                    result += "yipyop";
+                }
+
+                else if
+                   (NumMax % 3 == 0)
+                {
+                    result += "yop";
+                }
+                else if (NumMax % 5 == 0)
+                {
+                    result += "yip";
+                }
+
+                else
+                {
+                    result += NumMax;
+                }
+            
             return result ;
         }
     }
